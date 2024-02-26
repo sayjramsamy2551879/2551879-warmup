@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                position: fixed;
+                width: 100%;
+            }
+
+            .imgcenter{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .center{
+                text-align: center;
+                
+            }
+            .bar{
+                color: white;
+            }
+            
+            .grid-container {
+                display: inline-grid;
+                grid-template-columns: auto auto;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                flex-wrap: nowrap;
+            }
+            .grid-item {
+                background-color: white;
+                text-align: center;
+                display: inline-block;
+                border: 1px solid black;
+                flex-wrap: nowrap;
+            }
+        </style>
+    </head>
+    <nav>
+        
+    </nav>
+    
+    <body>   
+        <ul style="top:0;">
+            <li style="float:left;"><a>Welcome to Software Design Website</a></li>           
+            <li style="float:right;"><a>Contact Us</a></li>
+            <li style="float:right;"><a>Services</a></li>
+            <li style="float:right;"><a>About Us</a></li>
+        </ul>    
+        <p>,</p> 
+        <h3 class="center">About Us</h3>
+        <p class="center" style="font-size: x-small">We are a company dedicated to providing excellent services to our customers.</p>
+        <img class="imgcenter" src="https://www.bluntmag.com.au/wp-content/uploads/2020/09/Borat.jpg" width="600" height="400"> </img>
+
+        <ul style="bottom: 0;">
+            <li class="bar" style="text-align: center; font-size: x-small; padding-top: 50;">© 2024 The Lucky Company. All rights reserved.<a></a></li>
+        </ul>
+        <h3 class="center">Our Services</h3>
+    
+        </hgroup>
+        <hgroup class="grid-container">
+            <a class="grid-item">
+                <h3><b>Web Development</b></h3>
+                <p style="font-size: x-small">We specialize in creating responsive and user-friendly websites.</p>
+                <img src="https://cdn.openart.ai/stable_diffusion/7ece6f4667c1d41ea668e978add847fb3737a620_2000x2000.webp" width="600" height="400"> </img>
+            </a>
+            <a class="grid-item">
+                <h3><b>Graphic Design</b></h3>
+                <p style="font-size: x-small">Our talented designers can bring your ideas to life with stunning visuals.</p>
+                <img src="https://www.vfxvoice.com/wp-content/uploads/2017/03/Cars_3.jpg" width="600" height="400"> </img>
+            </a>
+        </hgroup>
+    </body>
+</html>
